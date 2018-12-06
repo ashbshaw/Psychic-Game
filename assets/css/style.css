@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#game {
+    margin: 50px 0px 20px 50px;
+}
+
+
+
+h1, h2, {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+div{
+	margin: 20px;
+	padding: 10px;
+}
+
+img {
+    float: right;
+    margin: 75px 250px 0px 0px;
+    width: 500px;
+    height: 350px;
+}
+
+
+
+
+
