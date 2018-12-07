@@ -5,25 +5,28 @@ var computerChoice = ["a", "b", "c", " d", " e", "f", "g", "h", "i", "j", "k", "
 var wins = 0;
 var losses = 0;
 var guessesLeft = 9;
-var guessesSoFar = []
+var guessesSoFar = [];
 var computerGuess = [];
+
 
 // Getting computer choice
 
 window.onload = function () {
     var computer = computerChoice[Math.floor(Math.random() * computerChoice.length)];
     computerGuess.push(computer);
+    console.log(computerGuess)
 }
 
 // Player go
 
 document.onkeyup = function (event) {
     var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
-    var userGuess = event.key;
-    guessesSoFar.push( userGuess);
+    guessesSoFar.push(" " + userGuess);
+    console.log(userGuess)
+    console.log(computerGuess)
 
 
-    if ((userGuess === computerGuess) && (guessesLeft > 0)) {
+    if ((userGuess == computerGuess) && (guessesLeft > 0)) {
         wins++;
         guessesLeft = 9;
         guessesSoFar.length = 0;
