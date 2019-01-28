@@ -1,4 +1,4 @@
-# JavaScript-Psychic-Game
+# Psychic-Game-JavaScript-Project
 
 This is our first project utilizing JavaScript. We also explored other concepts that were new at the time, such as "if/else" statements and pushing information from the js file to the html file.
 
